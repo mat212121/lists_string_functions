@@ -154,10 +154,18 @@ print(multiDimen[0][0])
 
 # In[ ]:
 
-
-
-
-
+avengers = ["hawkeye","hulk","iron man", "black panther", "captAmer" ]
+guardiansofgalaxy = ["Drax","rocket racoon","groot","starlord","gamora"]
+team=avengers+guardiansofgalaxy
+print(team)
+team.append("gibby")
+team.append("god")
+print(team)
+print(team.reverse())
+print(team)
+print(team.remove("hulk"))
+print(team)
+print(team.index("Drax"))
 # #Tuples
 
 # In[ ]:
